@@ -1,0 +1,155 @@
+/* Estilos previos */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0ff;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+p {
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+header {
+    background-color: #333;
+    color: #000;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+section {
+    padding: 50px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Nuevos estilos para la landing page */
+
+#hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+    #hero .hero-content {
+        color: #fff;
+    }
+
+#services {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+    .service img {
+        width: 80px;
+        height: 80px;
+    }
+
+#how-it-works {
+    background-color: #f9f9f9;
+}
+
+    #how-it-works ol {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+#faq {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+    .faq-container .question {
+        text-align: left;
+        background-color: #fff;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+/*#form-container * {
+    text-align: center;
+}*/
+form {
+    /*margin: 0;*/
+}
+.contactf{
+    height:500px;
+    width: 500px;
+}
+select {
+    /*text-align: center;*/
+    border: 1px solid #ccc;
+}
+.contact {
+    text-align: center;
+    /*resize:*/
+}
+
+    .contact form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+        .contact form input,
+        .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+/*footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}*/
